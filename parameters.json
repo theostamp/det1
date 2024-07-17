@@ -1,0 +1,6 @@
+{
+    "iou": 0.35,
+    "conf": 0.05,
+    "timer_interval": 15,
+    "notify_limit": 6
+}

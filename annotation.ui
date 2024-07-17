@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1292</width>
+    <height>810</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(209, 209, 209);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>50</y>
+      <width>981</width>
+      <height>591</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_load_image">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>60</y>
+      <width>121</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: rgb(249, 249, 249);
+    border-radius: 0px;
+	
+	
+	background-color: rgb(63, 113, 140);
+	
+    border-right: 15px solid orange; /* Προσθήκη κίτρινης γραμμής περιγράμματος στη δεξιά πλευρά */
+}
+
+QPushButton:hover {
+   
+	background-color: rgb(99, 99, 99);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Load Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_save_annotations">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>160</y>
+      <width>121</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: rgb(249, 249, 249);
+    border-radius: 0px;
+	
+	
+	background-color: rgb(63, 113, 140);
+	
+    border-right: 15px solid orange; /* Προσθήκη κίτρινης γραμμής περιγράμματος στη δεξιά πλευρά */
+}
+
+QPushButton:hover {
+   
+	background-color: rgb(99, 99, 99);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Save Annotations</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_delete_rest">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>680</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    color: rgb(249, 249, 249);
+    border-radius: 0px;
+	
+	
+	background-color: rgb(63, 113, 140);
+	
+    border-right: 15px solid orange; /* Προσθήκη κίτρινης γραμμής περιγράμματος στη δεξιά πλευρά */
+}
+
+QPushButton:hover {
+   
+	background-color: rgb(99, 99, 99);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
